@@ -1,0 +1,222 @@
+influencer_id,username,display_name,follower_count,following_count,total_videos,avg_views_per_video,country,niche_category,is_verified,account_type,joined_date,bio_length_chars,has_external_link
+INF00001,ve_ndulkaaa,Ve Ndulkaaa,42905,1193,429,26546,DE,Comedy,0,Business,2018-05-11,7,0
+INF00002,mandislives,Mandislives,171982,4514,1728,38142,AU,Animals & Pets,0,Personal,2019-10-16,108,1
+INF00003,daden.tv.1,Daden Tv 1,19210,3162,406,6575,ID,Music,0,Personal,2023-02-25,137,0
+INF00004,5.minite.ago,5 Minite Ago,91314,619,197,55272,SG,Comedy,0,Creator,2019-02-18,97,1
+INF00005,ddaniela.mariaa,Ddaniela Mariaa,30714,1766,2755,8055,FR,Lifestyle,0,Personal,2019-12-02,136,0
+INF00006,dani_villarr,Dani Villarr,41231784,4612,909,25795197,BR,Animals & Pets,0,Personal,2021-07-16,102,1
+INF00007,franncchii,Franncchii,160616,3291,2643,68936,US,Science & Education,0,Creator,2022-10-21,149,1
+INF00008,mano123.77,Mano123 77,164988,435,459,26888,US,Lifestyle,0,Business,2018-09-18,98,1
+INF00009,smante88,Smante88,38744232,144,2796,25456044,IN,Food & Cooking,1,Creator,2019-04-02,75,1
+INF00010,bryson_keith,Bryson Keith,40351480,1513,2089,33249063,MX,Music,1,Creator,2019-09-19,95,0
+INF00011,dolisekk,Dolisekk,458225,4052,89,58343,ID,Dance,0,Creator,2020-09-07,14,0
+INF00012,harley_haisleyyy,Harley Haisleyyy,1218514,4413,525,172664,PH,Food & Cooking,0,Business,2020-05-17,138,0
+INF00013,cassiaxoxo_off,Cassiaxoxo Off,213430,4289,1859,28871,US,Beauty & Fashion,0,Personal,2020-07-31,150,0
+INF00014,alienslastnight,Alienslastnight,1471,66,1363,134,US,Lifestyle,0,Business,2020-05-27,138,0
+INF00015,veritasium,Veritasium,4465052,3384,789,500369,IN,Beauty & Fashion,1,Business,2018-08-10,25,0
+INF00016,abc7la,Abc7La,27386,1608,2206,11510,ID,Music,0,Business,2020-10-20,19,1
+INF00017,amaliediaz,Amaliediaz,924366,814,978,161478,PH,Science & Education,0,Business,2018-08-29,42,1
+INF00018,rh26729,Rh26729,1141,334,2721,747,US,Music,0,Creator,2018-08-28,148,0
+INF00019,conexaotvweb.pa,Conexaotvweb Pa,79972,4400,654,6356,PH,Dance,0,Creator,2018-10-08,17,0
+INF00020,big.manny1,Big Manny1,112856,3484,2702,60693,UK,Motivational,0,Creator,2020-04-16,80,0
+INF00021,gmanews,Gmanews,257506,644,48,110394,NG,Comedy,0,Personal,2020-05-23,129,1
+INF00022,jennalynn468,Jennalynn468,9680,696,1804,7311,IN,Travel,0,Personal,2021-05-11,26,0
+INF00023,papayapulse4,Papayapulse4,18332,2358,2487,3909,ID,Lifestyle,0,Creator,2023-09-02,125,1
+INF00024,syrianpsycho,Syrianpsycho,4329,733,545,2529,US,Technology,0,Business,2022-10-18,143,0
+INF00025,welcometodacrib5,Welcometodacrib5,8331,1562,2395,4254,ID,Entertainment,0,Creator,2022-02-02,10,1
+INF00026,dancingmoto,Dancingmoto,14767,4636,1674,12954,MY,Motivational,0,Creator,2019-10-28,45,1
+INF00027,elizaorlins,Elizaorlins,3286574,2082,1102,553794,IN,Sports,1,Business,2020-06-30,51,1
+INF00028,_vibetherapy_, Vibetherapy ,23915,1632,1642,7547,MX,Animals & Pets,0,Creator,2021-12-09,130,1
+INF00029,thehuntershunt,Thehuntershunt,4998104,994,1079,926418,PK,Music,0,Business,2021-11-16,80,1
+INF00030,aaron.vankampen,Aaron Vankampen,1470108,1607,1053,100873,PH,Food & Cooking,1,Creator,2022-01-31,110,0
+INF00031,m_uhamad_43,M Uhamad 43,223120,2510,2087,66730,ID,Sports,0,Creator,2019-06-06,49,1
+INF00032,secretos.devida003,Secretos Devida003,248782,53,1254,69563,ID,Travel,0,Creator,2023-03-20,113,1
+INF00033,tinya8888,Tinya8888,4788039,1440,2708,496864,PH,Lifestyle,1,Personal,2020-08-20,79,0
+INF00034,huz1409,Huz1409,14050,3942,2513,10808,US,Sports,0,Creator,2022-04-22,126,1
+INF00035,coolchemistryguy,Coolchemistryguy,546514,1842,730,398723,IN,Gaming,0,Personal,2020-10-17,31,1
+INF00036,tha_meme_lord,Tha Meme Lord,76287315,4927,1309,65342714,DE,Travel,1,Business,2023-01-01,40,1
+INF00037,mel_caramelll,Mel Caramelll,2573998,4320,1994,1480746,US,Comedy,1,Creator,2021-01-17,85,1
+INF00038,nerdork0,Nerdork0,36399,1301,2903,7867,ID,Beauty & Fashion,0,Business,2022-08-31,15,0
+INF00039,scixlab,Scixlab,254199,2931,1233,174259,BR,Dance,0,Business,2020-06-22,124,0
+INF00040,baohatinh,Baohatinh,18887,3362,2976,3278,PH,News & Politics,0,Personal,2022-06-02,144,0
+INF00041,molly_____b,Molly     B,4095465,1538,215,1049815,ID,Gaming,1,Business,2021-02-13,107,1
+INF00042,86larkinn7,86Larkinn7,6367,1483,928,3792,SG,Lifestyle,0,Personal,2018-05-08,63,0
+INF00043,laji1482,Laji1482,2335,735,478,1215,US,Technology,0,Creator,2022-02-19,42,0
+INF00044,aracherry6,Aracherry6,1406799,4766,2784,1153550,ID,Technology,0,Creator,2019-02-22,77,0
+INF00045,3occupy.daily123,3Occupy Daily123,460327,3085,292,216439,ID,Dance,0,Business,2023-07-01,27,1
+INF00046,scibodytherapy,Scibodytherapy,383230,4324,2674,101545,CA,Food & Cooking,0,Business,2023-03-20,111,1
+INF00047,lizzo,Lizzo,22122,3742,1008,15107,UK,Lifestyle,0,Business,2021-10-09,7,1
+INF00048,aptok_news,Aptok News,22300,2166,1404,6094,AU,Motivational,0,Creator,2018-02-11,132,0
+INF00049,edit.spot1,Edit Spot1,176541,2018,2838,78419,MY,Gaming,0,Personal,2019-01-17,75,0
+INF00050,xemilyirenex,Xemilyirenex,412696,3073,1948,211102,ID,Technology,0,Creator,2021-12-12,116,1
+INF00051,larantonia,Larantonia,181808,2634,499,122957,PK,Technology,0,Creator,2020-02-24,55,1
+INF00052,allxplained,Allxplained,42983443,1640,1223,9796371,US,Entertainment,1,Creator,2021-01-28,11,0
+INF00053,minhanh99.entertainment,Minhanh99 Entertainment,37264,150,2361,10336,PH,Beauty & Fashion,0,Creator,2018-07-30,64,1
+INF00054,shneb18,Shneb18,481026,4776,2588,301705,US,Animals & Pets,0,Creator,2018-12-15,63,0
+INF00055,yelayofficial,Yelayofficial,3991121,3166,1855,3274310,US,Travel,1,Creator,2018-09-04,25,0
+INF00056,dryden.12,Dryden 12,41993,1473,2270,4002,US,Gaming,0,Business,2021-04-07,8,0
+INF00057,qmhearts,Qmhearts,19881,1962,1093,14223,AU,Lifestyle,0,Creator,2022-10-08,29,0
+INF00058,txsss..lily,Txsss  Lily,43443,1409,1269,23793,CA,Motivational,0,Creator,2022-12-04,31,1
+INF00059,alandick13,Alandick13,209432,4095,1803,20939,US,Sports,0,Creator,2020-10-22,6,0
+INF00060,brianregantiktok,Brianregantiktok,403527,1485,1937,194297,PH,Music,0,Creator,2022-11-21,125,0
+INF00061,madisonknowsbest,Madisonknowsbest,31802,906,668,10078,IN,Music,0,Business,2018-05-31,116,0
+INF00062,lyrical.143,Lyrical 143,20558734,3361,2117,15371491,US,Dance,1,Business,2018-08-11,48,1
+INF00063,e.guidry,E Guidry,4681664,1717,1103,2377447,FR,Gaming,1,Business,2019-05-13,7,0
+INF00064,ana_bensig,Ana Bensig,47516,3392,391,10714,BR,Comedy,0,Business,2019-04-27,39,1
+INF00065,tornew01,Tornew01,203020,4002,1944,49140,UK,Sports,0,Creator,2023-09-13,34,0
+INF00066,nyanya2x,Nyanya2X,3980790,4209,1104,2961222,US,Music,1,Business,2019-09-01,114,1
+INF00067,dailyquiz.us,Dailyquiz Us,3664268,1595,2866,871219,ID,Dance,1,Personal,2021-07-27,121,1
+INF00068,obaapapatheo,Obaapapatheo,71481886,1084,2067,62179063,ID,Comedy,1,Business,2019-02-13,134,1
+INF00069,qwscience,Qwscience,1709264,1314,316,749438,PK,Beauty & Fashion,1,Business,2018-11-25,84,1
+INF00070,thetodayshow,Thetodayshow,21752,610,971,12596,FR,Science & Education,0,Personal,2022-11-13,25,0
+INF00071,siliconbrief,Siliconbrief,30076,509,1211,10281,ID,Science & Education,0,Business,2020-01-08,43,0
+INF00072,hotnews9965,Hotnews9965,369550,4827,596,85737,AU,Gaming,0,Creator,2018-02-08,119,1
+INF00073,gottaluvemman,Gottaluvemman,336575,2880,2416,97695,PK,Technology,0,Creator,2023-02-15,77,0
+INF00074,velmora.mp3,Velmora Mp3,26211,4735,1480,13894,NG,Music,0,Personal,2022-06-10,70,0
+INF00075,jalichi_,Jalichi ,911413,2394,952,508702,ID,Lifestyle,0,Creator,2020-10-23,35,0
+INF00076,markspencermakeup,Markspencermakeup,830701,323,2383,288609,US,Motivational,0,Creator,2021-08-31,106,0
+INF00077,rosekhan.002,Rosekhan 002,119290,2282,683,30247,CA,Gaming,0,Creator,2021-10-19,29,1
+INF00078,igorkryan,Igorkryan,58339668,4615,1508,6333558,ID,Music,1,Business,2022-02-18,67,1
+INF00079,adoreeparn,Adoreeparn,244760,4649,1353,202238,US,Comedy,0,Business,2021-05-22,104,0
+INF00080,moonlitlyr1cs,Moonlitlyr1Cs,45851123,1001,408,10741818,UK,Sports,1,Business,2019-09-25,106,0
+INF00081,robertirwin,Robertirwin,33069,3085,899,13748,PK,Dance,0,Creator,2019-02-11,94,1
+INF00082,revershub.fan,Revershub Fan,30475674,3775,385,18486812,IN,Travel,1,Personal,2021-09-28,62,0
+INF00083,jessicarai11,Jessicarai11,38000,1819,964,12002,US,Motivational,0,Personal,2021-02-09,37,0
+INF00084,chien.us97,Chien Us97,181415,261,549,7787,CA,Science & Education,0,Creator,2018-03-06,44,1
+INF00085,felipe_gandin,Felipe Gandin,4434,180,1960,1862,ID,Travel,0,Personal,2023-01-26,128,0
+INF00086,hpc_official,Hpc Official,72736,305,259,65372,BR,Sports,0,Personal,2023-07-02,113,0
+INF00087,gabibaileyy,Gabibaileyy,6294,1381,1570,5635,UK,Gaming,0,Business,2019-02-11,29,0
+INF00088,hannahhhmain,Hannahhhmain,29185,3765,1643,11437,US,Sports,0,Creator,2020-11-10,95,0
+INF00089,juliansewell,Juliansewell,1063156,813,1778,121211,MY,Animals & Pets,0,Personal,2021-09-12,31,1
+INF00090,sonam_khan804,Sonam Khan804,11904976,4968,1289,3999264,UK,Science & Education,0,Business,2020-07-07,27,1
+INF00091,bellalyricssss,Bellalyricssss,242708,3565,2307,213062,CA,Travel,0,Personal,2020-12-31,7,0
+INF00092,miadii009,Miadii009,18909,1536,596,9883,ID,News & Politics,0,Personal,2019-01-11,135,0
+INF00093,vexedredhead,Vexedredhead,25654,2602,2965,8009,FR,Travel,0,Personal,2018-08-04,39,0
+INF00094,christophercuomo,Christophercuomo,76090,3523,1999,42470,ID,Science & Education,0,Personal,2021-11-14,110,0
+INF00095,bean_posts,Bean Posts,405582,422,913,151638,AU,Entertainment,0,Creator,2021-05-19,54,0
+INF00096,nasircreations,Nasircreations,17745,3577,729,2526,UK,Science & Education,0,Creator,2018-10-23,101,0
+INF00097,jasonshields_,Jasonshields ,4356699,4766,1768,2304073,IN,Sports,0,Business,2018-03-27,83,0
+INF00098,whitakerfilms,Whitakerfilms,291224,917,1006,119121,ID,Comedy,0,Business,2021-06-24,86,0
+INF00099,haroonraja_111,Haroonraja 111,458483,984,2183,217164,DE,Beauty & Fashion,0,Creator,2019-08-28,60,0
+INF00100,javshuncho27,Javshuncho27,184202,667,735,157976,AU,Gaming,0,Business,2021-08-16,80,0
+INF00101,breencomedy,Breencomedy,85802,2300,2432,6767,PH,Music,0,Business,2023-01-26,9,0
+INF00102,davidarthurnews,Davidarthurnews,486049,789,2529,265795,ID,Travel,0,Personal,2023-01-17,146,0
+INF00103,leek9624,Leek9624,22071,556,1855,2649,DE,Beauty & Fashion,0,Personal,2023-08-29,44,0
+INF00104,poppolitic,Poppolitic,420998,1350,1500,149193,US,Sports,0,Creator,2018-08-03,85,0
+INF00105,comedybitsdaily,Comedybitsdaily,22606,4987,625,7234,UK,News & Politics,0,Creator,2021-06-24,100,0
+INF00106,foxnews,Foxnews,421634,2740,533,258462,BR,Technology,0,Personal,2022-10-01,130,1
+INF00107,bbcnews,Bbcnews,29194480,2849,2001,5752613,NG,News & Politics,0,Personal,2023-09-11,138,0
+INF00108,neildegrassetyson,Neildegrassetyson,44380,1531,2847,31103,CA,News & Politics,0,Business,2018-06-28,105,1
+INF00109,sciencechannel,Sciencechannel,427271,3727,968,211323,ID,Animals & Pets,0,Business,2020-03-05,94,1
+INF00110,complex,Complex,453408,3479,673,335837,CA,News & Politics,0,Creator,2018-08-02,123,1
+INF00111,overtime,Overtime,37342,1363,1127,15717,PH,Dance,0,Business,2019-01-11,56,1
+INF00112,ladbible,Ladbible,23910,3113,975,8750,US,Science & Education,0,Personal,2021-07-29,25,1
+INF00113,dailymail,Dailymail,821311,3920,2861,618501,SG,Gaming,0,Business,2018-01-22,20,0
+INF00114,matt_rife,Matt Rife,1754262,4373,1743,222322,US,Music,0,Creator,2022-09-16,117,0
+INF00115,usher,Usher,8265,2160,2365,1987,US,Sports,0,Personal,2021-12-16,61,1
+INF00116,brookemonk_,Brookemonk ,75260908,604,2164,37882676,CA,Food & Cooking,1,Business,2023-04-10,11,1
+INF00117,fallontonight,Fallontonight,636250,2874,997,424797,AU,Animals & Pets,0,Creator,2019-07-01,11,1
+INF00118,cbsmornings,Cbsmornings,67360630,3970,2597,12702992,US,Technology,1,Business,2018-06-01,75,0
+INF00119,europeanspaceagency,Europeanspaceagency,3870,685,2121,1456,CA,Gaming,0,Creator,2018-05-30,48,1
+INF00120,kiwico_inc,Kiwico Inc,24394,3064,1799,19609,MY,Motivational,0,Business,2021-10-20,47,1
+INF00121,abc13houston,Abc13Houston,46355,726,2988,18510,ID,Dance,0,Creator,2021-04-18,82,0
+INF00122,mothershipsg,Mothershipsg,221925,3540,692,139833,ID,Entertainment,0,Creator,2022-11-17,70,0
+INF00123,elcomerciope,Elcomerciope,401894,1360,137,61979,AU,Animals & Pets,0,Business,2018-05-23,32,0
+INF00124,arynews.official,Arynews Official,16466,4696,142,9162,IN,Beauty & Fashion,0,Creator,2022-12-24,19,0
+INF00125,loudluxury,Loudluxury,242388,2094,474,12736,US,Food & Cooking,0,Business,2019-04-28,67,1
+INF00126,trapnation,Trapnation,283976,4073,829,38817,BR,Gaming,0,Creator,2022-12-29,22,1
+INF00127,andrewzviolin,Andrewzviolin,232151,2507,655,150729,FR,Lifestyle,0,Creator,2022-01-20,130,0
+INF00128,goldfishclub,Goldfishclub,1664984,265,1488,852469,ID,Animals & Pets,1,Creator,2018-12-20,16,1
+INF00129,taylortomlinsoncomedy,Taylortomlinsoncomedy,425880,3404,2364,40102,PK,Lifestyle,0,Personal,2023-01-18,119,1
+INF00130,joshwolfcomedy,Joshwolfcomedy,484663,503,518,233001,US,News & Politics,0,Creator,2020-07-12,88,1
+INF00131,atsukocomedy,Atsukocomedy,6168,1330,1250,3482,US,Lifestyle,0,Creator,2019-09-24,43,1
+INF00132,donttellcomedy,Donttellcomedy,37937,4774,1094,22628,SG,Sports,0,Personal,2023-08-02,139,1
+INF00133,comedydynamics,Comedydynamics,4551235,3376,1228,1932378,IN,News & Politics,1,Business,2023-03-18,52,1
+INF00134,comedycellarusa,Comedycellarusa,125324,2879,1643,18017,ID,Food & Cooking,0,Personal,2021-07-31,61,1
+INF00135,hannaparentcomedy,Hannaparentcomedy,9029,257,1198,7697,MX,Sports,0,Creator,2019-10-17,83,1
+INF00136,kendallthecomedian1,Kendallthecomedian1,71876069,3874,2052,57126799,PH,Comedy,1,Business,2020-09-13,55,1
+INF00137,blaucomedy,Blaucomedy,76498,3905,1180,38013,BR,Sports,0,Creator,2020-12-19,93,1
+INF00138,bsmithcomedy,Bsmithcomedy,73721,1644,1494,37693,US,Food & Cooking,0,Business,2021-02-19,30,0
+INF00139,sophrikinfunny,Sophrikinfunny,256519,3045,600,52119,PH,Food & Cooking,0,Personal,2018-07-05,9,0
+INF00140,theresavandamstylist,Theresavandamstylist,224610,4273,582,70826,AU,News & Politics,0,Business,2021-05-10,86,1
+INF00141,acquiredstyle,Acquiredstyle,3014826,3067,1366,1857770,NG,Travel,1,Personal,2023-04-28,67,0
+INF00142,jesscurated,Jesscurated,76925,3164,615,57297,US,Travel,0,Personal,2020-02-21,4,1
+INF00143,labmuffinbeautyscience,Labmuffinbeautyscience,269562,3411,2065,189832,FR,Dance,0,Personal,2019-07-20,132,0
+INF00144,decodethebody,Decodethebody,37758,1468,1892,31095,ID,Beauty & Fashion,0,Creator,2023-06-07,49,0
+INF00145,aidoctor91,Aidoctor91,3003993,2488,1193,1932359,IN,Gaming,1,Creator,2021-01-25,73,0
+INF00146,atomedgeanatomy,Atomedgeanatomy,3685106,1249,1199,245420,PK,Comedy,1,Business,2020-11-16,122,0
+INF00147,devscreamsinbiology,Devscreamsinbiology,14242,2010,1003,1056,DE,Science & Education,0,Creator,2018-08-04,25,1
+INF00148,mellythesciencegeek,Mellythesciencegeek,426103,1176,31,370339,PK,News & Politics,0,Business,2023-05-03,122,0
+INF00149,physx99,Physx99,2894238,782,2681,1532487,UK,Technology,1,Personal,2019-12-19,106,0
+INF00150,wizzscience,Wizzscience,3381,642,163,128,UK,Comedy,0,Creator,2021-03-11,116,1
+INF00151,scieneers,Scieneers,9794,511,1364,1678,PH,Music,0,Creator,2018-02-27,86,1
+INF00152,5.min.science,5 Min Science,403581,3371,1761,193030,US,Lifestyle,0,Personal,2020-01-27,35,1
+INF00153,microdosescience,Microdosescience,22207,3709,1103,19098,US,Technology,0,Personal,2020-12-07,92,0
+INF00154,mcsciencefacts,Mcsciencefacts,5071,880,2820,2369,DE,Technology,0,Creator,2019-04-26,75,1
+INF00155,currentlyinscience,Currentlyinscience,165789,3777,2491,58863,IN,Motivational,0,Business,2020-06-13,63,0
+INF00156,sciencebeyondearth,Sciencebeyondearth,35439,4671,469,2967,UK,Food & Cooking,0,Creator,2019-09-06,42,1
+INF00157,dr.cal.ur.science.pal,Dr Cal Ur Science Pal,281652,4054,382,228710,PH,Entertainment,0,Business,2019-06-25,131,1
+INF00158,matt.speaks.science,Matt Speaks Science,345652,2574,2972,16916,US,Entertainment,0,Creator,2018-10-27,11,1
+INF00159,science.craft,Science Craft,77633736,615,1943,4472428,ID,Animals & Pets,0,Business,2022-03-14,97,1
+INF00160,science.share,Science Share,25739,2898,495,4768,UK,Food & Cooking,0,Creator,2020-07-01,0,0
+INF00161,geologist_rambling,Geologist Rambling,20553,1931,1023,8853,US,Science & Education,0,Personal,2018-05-12,107,0
+INF00162,geofacts26,Geofacts26,158047,3707,2458,97145,MX,Science & Education,0,Personal,2022-07-06,112,0
+INF00163,geoanimator1,Geoanimator1,163912,2419,969,121251,MY,Beauty & Fashion,0,Creator,2020-08-28,77,0
+INF00164,cosmicwonders77,Cosmicwonders77,44267,549,2290,37857,MX,Motivational,0,Creator,2022-10-16,142,1
+INF00165,morespacetalk,Morespacetalk,4072,902,1682,650,ID,Animals & Pets,0,Business,2020-09-14,57,1
+INF00166,thegalacticgal,Thegalacticgal,125682,3462,2292,61721,ID,Music,0,Creator,2021-09-14,20,1
+INF00167,cosmoknowledge,Cosmoknowledge,25318,3139,2769,14084,US,Comedy,0,Creator,2020-06-07,122,0
+INF00168,quantumfisicox,Quantumfisicox,628629,1011,1971,518973,IN,Technology,0,Creator,2022-06-13,61,1
+INF00169,physicslab8,Physicslab8,249577,2576,1081,85577,MX,Gaming,0,Personal,2023-04-08,81,0
+INF00170,fun.with.forces,Fun With Forces,214062,1862,607,9442,UK,Travel,0,Business,2021-04-24,39,0
+INF00171,innovative_experiments,Innovative Experiments,170597,2815,1064,118415,PH,Technology,0,Business,2023-03-03,43,1
+INF00172,bite.size.knowledge,Bite Size Knowledge,4596295,4491,2638,3965665,UK,Dance,1,Personal,2018-01-27,105,0
+INF00173,brainshift4,Brainshift4,42333,4192,1877,15014,AU,Lifestyle,0,Business,2023-06-22,4,0
+INF00174,mindknowledgepower,Mindknowledgepower,35879,2300,2204,31588,US,Dance,0,Business,2020-01-05,27,0
+INF00175,brainempire29,Brainempire29,128066,2117,1461,33626,ID,Beauty & Fashion,0,Business,2023-02-24,144,0
+INF00176,mindbreach101,Mindbreach101,168415,309,392,64434,ID,Gaming,0,Personal,2018-02-08,43,0
+INF00177,mind.trace_,Mind Trace ,493197,831,2173,409187,US,Motivational,0,Business,2021-01-15,11,0
+INF00178,conocimiento.profundo,Conocimiento Profundo,776001,2626,74,672387,UK,Animals & Pets,0,Business,2018-11-12,76,0
+INF00179,hot_news.id,Hot News Id,37959,1196,2833,25053,PH,Beauty & Fashion,0,Personal,2019-02-05,111,0
+INF00180,carollinewick,Carollinewick,5981,609,1855,2732,ID,Sports,0,Business,2020-01-31,149,1
+INF00181,gigitxrres,Gigitxrres,454839,722,1107,74671,MY,Lifestyle,0,Creator,2022-05-15,81,1
+INF00182,hotnewsnetworks,Hotnewsnetworks,97984,2259,428,14235,US,Gaming,0,Business,2019-02-28,6,0
+INF00183,24global.watch,24Global Watch,1280680,151,1205,499484,SG,Technology,1,Creator,2023-11-05,43,1
+INF00184,anatovrs1,Anatovrs1,12108,647,269,2124,US,Music,0,Business,2018-11-12,92,1
+INF00185,camera.videos,Camera Videos,427959,1159,1257,15358,ID,Dance,0,Business,2021-09-11,112,1
+INF00186,afinaaspam,Afinaaspam,29220,1695,1972,8863,PK,Beauty & Fashion,0,Creator,2023-07-05,147,0
+INF00187,bolsonaro.volta46,Bolsonaro Volta46,22357,4669,828,12189,UK,Lifestyle,0,Personal,2023-03-06,53,1
+INF00188,breaking.news4877,Breaking News4877,485832,1190,2604,142574,US,News & Politics,0,Business,2022-03-25,18,1
+INF00189,breaking.news.noww,Breaking News Noww,301258,3476,2236,18673,PK,Technology,0,Personal,2019-03-24,63,1
+INF00190,last24hourworldnews,Last24Hourworldnews,58635786,2766,1773,7163637,US,Science & Education,1,Creator,2022-12-31,95,1
+INF00191,hotbreakingnews1,Hotbreakingnews1,31347,251,1987,3791,ID,Comedy,0,Personal,2019-08-04,89,1
+INF00192,hotnewschanelttok,Hotnewschanelttok,288726,3950,409,118725,IN,Beauty & Fashion,0,Personal,2021-05-14,11,0
+INF00193,danielreport,Danielreport,495215,1396,1009,237165,UK,Beauty & Fashion,0,Business,2023-03-08,59,1
+INF00194,wolfnewsusa,Wolfnewsusa,42271,1666,1851,23046,ID,Technology,0,Creator,2020-04-22,71,0
+INF00195,libertynews3,Libertynews3,38837,3798,476,10029,MX,Food & Cooking,0,Creator,2022-05-11,100,0
+INF00196,unfilteredreport,Unfilteredreport,4340813,2486,2526,2358999,IN,Beauty & Fashion,0,Creator,2019-04-25,46,1
+INF00197,political_plug,Political Plug,124113,1179,2364,45155,US,Lifestyle,0,Creator,2019-11-15,125,1
+INF00198,secular.talk5,Secular Talk5,148094,2991,49,66880,US,Sports,0,Business,2022-08-03,125,1
+INF00199,meidastouch,Meidastouch,47539,4681,136,34342,US,Entertainment,0,Creator,2020-07-09,137,1
+INF00200,aaronparnas1,Aaronparnas1,459333,977,2355,59419,SG,Dance,0,Creator,2018-06-20,112,0
+INF00201,sjtraub,Sjtraub,2576446,314,1852,666395,MX,Comedy,1,Personal,2020-08-28,53,1
+INF00202,popmusic_ln,Popmusic Ln,369953,1742,857,270336,UK,Food & Cooking,0,Creator,2019-11-21,82,1
+INF00203,ryderluvsmusic,Ryderluvsmusic,74043611,830,565,64241098,CA,Motivational,0,Creator,2019-06-04,33,0
+INF00204,trendformusic,Trendformusic,3201944,3267,2014,492104,AU,Lifestyle,1,Business,2018-11-06,23,1
+INF00205,az.playlist_official,Az Playlist Official,443113,4048,1350,237642,MX,Dance,0,Personal,2023-02-21,91,0
+INF00206,musicevade,Musicevade,2327290,4102,1109,723537,US,Food & Cooking,1,Business,2021-11-08,12,0
+INF00207,madisonbeermoon,Madisonbeermoon,7525,697,1817,3214,NG,Sports,0,Creator,2019-06-25,77,0
+INF00208,maxandharveyofficial,Maxandharveyofficial,18958,1405,222,7105,US,Technology,0,Creator,2022-10-25,23,0
+INF00209,bassedelite,Bassedelite,1071,165,2137,665,US,Technology,0,Creator,2019-05-09,108,0
+INF00210,indiehours,Indiehours,32306,889,432,9776,MX,News & Politics,0,Business,2019-06-30,36,0
+INF00211,laerzmusic,Laerzmusic,345327,1795,2582,235165,FR,Travel,0,Business,2020-06-08,22,0
+INF00212,melodyhavenz5w,Melodyhavenz5W,10175,1808,1298,7308,US,Lifestyle,0,Personal,2020-10-13,141,1
+INF00213,spotify_lyrics_kk,Spotify Lyrics Kk,64064,4224,782,43603,US,Entertainment,0,Creator,2023-07-21,98,0
+INF00214,cho.lyrics,Cho Lyrics,1095692,148,1489,923136,US,Dance,1,Business,2022-02-05,139,0
+INF00215,justtlyrics._,Justtlyrics  ,453895,162,1083,98811,FR,Animals & Pets,0,Business,2023-09-07,73,1
+INF00216,macbooooklyrics,Macbooooklyrics,417951,4454,2533,68055,US,Comedy,0,Creator,2019-09-29,137,1
+INF00217,aluvlettertoyou,Aluvlettertoyou,357462,2004,247,86755,FR,Comedy,0,Business,2018-08-14,79,0
+INF00218,sounds.for.you.qq,Sounds For You Qq,8827,1470,2152,4236,CA,Music,0,Creator,2022-03-04,32,1
+INF00219,asmr_channel75,Asmr Channel75,746259,2278,2155,63856,MY,Travel,0,Personal,2023-07-26,116,1
+INF00220,asmr.eileen,Asmr Eileen,4633,260,2360,2856,US,Technology,0,Personal,2018-06-30,3,0
+INF00221,sleepholic9,Sleepholic9,3553257,1516,154,1815687,DE,Technology,1,Creator,2021-08-11,63,1
