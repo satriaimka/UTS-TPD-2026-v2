@@ -49,12 +49,6 @@ def extract_tiktok_json(spark):
     df = spark.read.option("multiLine", True).json(JSON_PATH)
     df = flatten_columns(df)
 
-    # Ekstrak video_id dari webVideoUrl
-    df = df.withColumn(
-        "video_id",
-        regexp_extract("webVideoUrl", r"/video/(\d+)", 1)
-    )
-
     print(f"  Records loaded: {df.count()}")
     df.printSchema()
     return df

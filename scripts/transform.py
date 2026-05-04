@@ -11,7 +11,7 @@ from config.settings import *
 from pyspark.sql.functions import (
     col, when, trim, lower, regexp_replace, to_timestamp, coalesce, lit,
     hour, dayofweek, month, year, size, split, explode,
-    round as spark_round, udf, expr,
+    round as spark_round, udf, expr, regexp_extract,
     avg as spark_avg, count as spark_count, sum as spark_sum, max as spark_max,
     row_number
 )
@@ -30,6 +30,7 @@ def clean_data(df_tiktok, df_influencer, df_comments, df_taxonomy):
     df_clean = df_tiktok \
         .dropDuplicates(["webVideoUrl"]) \
         .filter(col("playCount") > 0) \
+        .withColumn("video_id", regexp_extract("webVideoUrl", r"/video/(\d+)", 1)) \
         .withColumn("createTimeISO", to_timestamp("createTimeISO")) \
         .withColumn("commentCount", coalesce(col("commentCount"), lit(0))) \
         .withColumn("shareCount", coalesce(col("shareCount"), lit(0))) \
@@ -162,7 +163,7 @@ def join_datasets(df_feat, df_inf_clean, df_com_clean, df_tax_clean):
     ).select("video_id", "hashtag_id").dropDuplicates()
 
     df_bridge.write.mode("overwrite").parquet(os.path.join(STAGING_DIR, "bridge_hashtag"))
-    
+
     df_with_cat = df_exploded.join(
         df_tax_clean.select("hashtag", "category", "is_brand_safe"),
         df_exploded["hashtag_single"] == df_tax_clean["hashtag"],
