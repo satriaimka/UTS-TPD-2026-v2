@@ -46,6 +46,23 @@ def setup_postgres_source():
     )
     cur = conn.cursor()
 
+    cur.execute("""
+        CREATE TABLE IF NOT EXISTS brand_safety_guideline (
+            safety_status SMALLINT PRIMARY KEY,
+            description VARCHAR(100),
+            monetization_status VARCHAR(50)
+        );
+    """)
+
+    # Insert data statis untuk tabel brand_safety_guideline
+    cur.execute("""
+        INSERT INTO brand_safety_guideline (safety_status, description, monetization_status)
+        VALUES 
+        (1, 'Safe for all advertisers and general audience', 'Eligible'),
+        (0, 'Sensitive content, restricted audience', 'Not Eligible')
+        ON CONFLICT DO NOTHING;
+    """)
+
     # Buat tabel
     cur.execute("""
         CREATE TABLE IF NOT EXISTS hashtag_category_taxonomy (
@@ -58,7 +75,8 @@ def setup_postgres_source():
             search_volume_tier VARCHAR(10) CHECK (search_volume_tier IN ('low','medium','high','viral')),
             language_primary   VARCHAR(5) DEFAULT 'en',
             created_at         DATE DEFAULT CURRENT_DATE,
-            last_updated       DATE DEFAULT CURRENT_DATE
+            last_updated       DATE DEFAULT CURRENT_DATE,
+            FOREIGN KEY (is_brand_safe) REFERENCES brand_safety_guideline(safety_status)
         );
     """)
 
