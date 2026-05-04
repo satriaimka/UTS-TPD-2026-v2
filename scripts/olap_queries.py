@@ -5,7 +5,7 @@ Menggunakan Data Warehouse PostgreSQL (tiktok_warehouse)
 import os
 import sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from config.config import *
+from config.settings import *
 
 import psycopg2
 import pandas as pd

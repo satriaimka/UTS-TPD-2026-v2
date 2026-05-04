@@ -9,7 +9,7 @@ import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from config.config import *
+from config.settings import *
 
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, regexp_extract
@@ -81,9 +81,9 @@ def extract_comments(spark):
     print("\n[EXTRACT 3/4] Raw Video Comments (MongoDB)...")
     try:
         df = spark.read.format("mongodb") \
-            .option("uri", MONGO_URI) \
-            .option("database", MONGO_DB) \
-            .option("collection", MONGO_COLLECTION) \
+            .option("spark.mongodb.read.connection.uri", MONGO_URI) \
+            .option("spark.mongodb.read.database", MONGO_DB) \
+            .option("spark.mongodb.read.collection", MONGO_COLLECTION) \
             .load()
         print(f"  Comment records (dari MongoDB): {df.count()}")
     except Exception as e:

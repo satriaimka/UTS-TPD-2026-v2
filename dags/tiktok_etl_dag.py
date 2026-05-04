@@ -6,7 +6,6 @@ Tasks: extract → transform → load → report
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.operators.bash import BashOperator
-from airflow.utils.dates import days_ago
 from datetime import datetime, timedelta
 import os
 import sys
@@ -18,7 +17,7 @@ sys.path.insert(0, PROJECT_DIR)
 default_args = {
     "owner": "data-engineer",
     "depends_on_past": False,
-    "start_date": days_ago(1),
+    "start_date": datetime(2024, 1, 1),
     "email": ["datateam@example.com"],
     "email_on_failure": True,
     "email_on_retry": False,
@@ -42,7 +41,7 @@ def task_extract(**kwargs):
 def task_transform(**kwargs):
     from scripts.extract import create_spark_session
     from scripts.transform import run_transform
-    from config.config import STAGING_DIR
+    from config.settings import STAGING_DIR
     spark = create_spark_session()
     df_tiktok = spark.read.parquet(os.path.join(STAGING_DIR, "tiktok_videos"))
     df_influencer = spark.read.parquet(os.path.join(STAGING_DIR, "influencer_profiles"))
@@ -55,7 +54,7 @@ def task_transform(**kwargs):
 def task_load(**kwargs):
     from scripts.extract import create_spark_session
     from scripts.load import run_load
-    from config.config import STAGING_DIR
+    from config.settings import STAGING_DIR
     spark = create_spark_session()
     df_final = spark.read.parquet(os.path.join(STAGING_DIR, "transformed_final"))
     df_influencer = spark.read.parquet(os.path.join(STAGING_DIR, "influencer_profiles"))
@@ -67,8 +66,8 @@ def task_load(**kwargs):
 def task_generate_report(**kwargs):
     print("Generating daily report...")
     # Jalankan OLAP queries jika diperlukan
-    # from scripts.olap_queries import run_all_olap
-    # run_all_olap()
+    from scripts.olap_queries import run_all_olap
+    run_all_olap()
     print("Report generated.")
 
 
@@ -76,8 +75,9 @@ with DAG(
     dag_id="tiktok_etl_pipeline",
     default_args=default_args,
     description="ETL Pipeline TikTok — extract, transform, load ke DW",
-    schedule_interval="0 6 * * *",  # Setiap hari pukul 06.00
+    schedule="0 6 * * *",  # Setiap hari pukul 06.00
     catchup=False,
+    max_active_runs=1,
     tags=["tiktok", "etl", "datawarehouse"],
 ) as dag:
 

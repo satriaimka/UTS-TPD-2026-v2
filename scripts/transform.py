@@ -6,7 +6,7 @@ import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from config.config import *
+from config.settings import *
 
 from pyspark.sql.functions import (
     col, when, trim, lower, regexp_replace, to_timestamp, coalesce, lit,
@@ -154,6 +154,15 @@ def join_datasets(df_feat, df_inf_clean, df_com_clean, df_tax_clean):
     # Join 3: Hashtag → Kategori konten
     df_exploded = df_j2.withColumn("hashtag_single", explode("hashtag_list"))
 
+    # Buat Bridge Table: Relasi video_id dan hashtag_id
+    df_bridge = df_exploded.join(
+        df_tax_clean.select("hashtag", "hashtag_id"),
+        df_exploded["hashtag_single"] == df_tax_clean["hashtag"],
+        how="inner"
+    ).select("video_id", "hashtag_id").dropDuplicates()
+
+    df_bridge.write.mode("overwrite").parquet(os.path.join(STAGING_DIR, "bridge_hashtag"))
+    
     df_with_cat = df_exploded.join(
         df_tax_clean.select("hashtag", "category", "is_brand_safe"),
         df_exploded["hashtag_single"] == df_tax_clean["hashtag"],

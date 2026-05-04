@@ -8,7 +8,7 @@ import sys
 from datetime import datetime, date, timedelta
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from config.config import *
+from config.settings import *
 
 import psycopg2
 from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
@@ -99,6 +99,13 @@ def setup_warehouse():
         neutral_comment_pct DECIMAL(5,2), avg_sentiment_score DECIMAL(5,4),
         primary_category VARCHAR(50), hashtag_count SMALLINT,
         loaded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP, pipeline_run_id VARCHAR(50)
+    );""")
+
+    cur.execute("""
+    CREATE TABLE IF NOT EXISTS bridge_video_hashtag (
+        video_sk INTEGER REFERENCES fact_video_performance(video_sk),
+        hashtag_id VARCHAR(10) REFERENCES dim_hashtag(hashtag_id),
+        PRIMARY KEY (video_sk, hashtag_id)
     );""")
 
     # Indexes
@@ -350,6 +357,44 @@ def load_fact_table(spark, df_final):
     print(f"  fact_video_performance: {inserted} records di-load.")
     print(f"  Pipeline Run ID: {pipeline_run_id}")
 
+def load_bridge_table(spark):
+    """Load Bridge Table untuk relasi Many-to-Many Video dan Hashtag."""
+    print("\n[LOAD 6/6] Loading bridge_video_hashtag...")
+    
+    # Baca data bridge dari staging
+    bridge_path = os.path.join(STAGING_DIR, "bridge_hashtag")
+    if not os.path.exists(bridge_path):
+        print("  Data bridge_hashtag tidak ditemukan di staging. Skip.")
+        return
+        
+    df_bridge = spark.read.parquet(bridge_path)
+    pdf_bridge = df_bridge.toPandas()
+    
+    conn = get_pg_connection()
+    cur = conn.cursor()
+    
+    # Ambil mapping video_id ke video_sk dari tabel fakta yang baru saja di-load
+    cur.execute("SELECT video_id, video_sk FROM fact_video_performance")
+    video_map = {row[0]: row[1] for row in cur.fetchall()}
+    
+    inserted = 0
+    for _, row in pdf_bridge.iterrows():
+        v_sk = video_map.get(row['video_id'])
+        h_id = row['hashtag_id']
+        
+        if v_sk and h_id:
+            try:
+                cur.execute("""
+                    INSERT INTO bridge_video_hashtag (video_sk, hashtag_id)
+                    VALUES (%s, %s) ON CONFLICT DO NOTHING
+                """, (v_sk, h_id))
+                inserted += 1
+            except Exception as e:
+                pass # Abaikan jika ada error unik/constraint
+                
+    conn.commit()
+    cur.close(); conn.close()
+    print(f"  bridge_video_hashtag: {inserted} relasi di-load.")
 
 def _safe_int(row, key):
     v = row.get(key)
@@ -382,6 +427,7 @@ def run_load(spark, df_final, df_influencer, df_taxonomy):
     load_dim_hashtag(spark, df_taxonomy)
     load_dim_creator_scd2(spark, df_influencer)
     load_fact_table(spark, df_final)
+    load_bridge_table(spark)
 
     print("\n  Load selesai. Data Warehouse terisi.")
 
