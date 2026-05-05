@@ -1,6 +1,6 @@
 """
 Apache Airflow DAG — TikTok ETL Pipeline
-Schedule: Setiap hari pukul 06.00 WIB (0 6 * * *)
+Schedule: Setiap hari pukul 02.00 WIB (0 19 * * * UTC)
 Tasks: extract → transform → load → report
 """
 from airflow import DAG
@@ -15,7 +15,7 @@ PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, PROJECT_DIR)
 
 default_args = {
-    "owner": "data-engineer",
+    "owner": "kelompok_8",
     "depends_on_past": False,
     "start_date": datetime(2024, 1, 1),
     "email": ["datateam@example.com"],
@@ -75,7 +75,7 @@ with DAG(
     dag_id="tiktok_etl_pipeline",
     default_args=default_args,
     description="ETL Pipeline TikTok — extract, transform, load ke DW",
-    schedule="0 6 * * *",  # Setiap hari pukul 06.00
+    schedule="0 19 * * *",  # Setiap hari pukul 02.00 WIB
     catchup=False,
     max_active_runs=1,
     tags=["tiktok", "etl", "datawarehouse"],
